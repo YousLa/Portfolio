@@ -26,7 +26,7 @@ const Sidebar = () => {
                             </a>
                         </li>
 
-                        {/* ABOUT */}
+                        {/* SKILLS */}
                         <li className="nav_item">
                             <a href="#skills" className="nav_link">
                                 <i className="icon-badge"></i>
