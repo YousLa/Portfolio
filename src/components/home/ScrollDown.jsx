@@ -2,7 +2,7 @@ import React from 'react'
 
 function ScrollDown() {
     return (
-        <div className="scrill_down">
+        <div className="scroll_down">
             <a href="#about" className="mouse_wrapper">
                 <span className="home_scroll-name">Scroll Down</span>
                 <span className="mouse">
