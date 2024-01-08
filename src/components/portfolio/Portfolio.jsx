@@ -21,7 +21,7 @@ const Portfolio = () => {
                 {items.map((elem) => {
                     const { id, image, title, category } = elem;
                     return (
-                        <div className="work_car" key={id}>
+                        <div className="work_card" key={id}>
                             <div className="work_thumbnail">
                                 <img src={image} alt="" className="work_img" />
                                 <div className="work_mask"></div>
