@@ -34,7 +34,7 @@ const Portfolio = () => {
                                 <div className="work_mask"></div>
                             </div>
 
-                            <span className="work_category">{category}</span>
+                            <span className="work_category">{category[0]}</span>
                             <h3 className="work_title">{title}</h3>
                             <a href="" className="work_button">
                                 <i className="icon-link work_button-icon"></i>

@@ -6,8 +6,7 @@ const Menu = [
         id: 1,
         image: Todo,
         title: "Plateforme de streaming",
-        // category: { 1: "PHP", 2: "Javascript" }
-        category: "PHP"
+        category: ["PHP", "JavaScript", "HTML", "CSS"]
 
     },
     {
@@ -15,17 +14,14 @@ const Menu = [
         // image: CodeCanvas,
         image: Todo,
         title: "Démystificateur de langages de programmation",
-        // category: { 1: "PHP", 2: "Javascript" }
-        category: "PHP"
-
+        category: ["PHP", "JavaScript", "HTML", "CSS"]
     },
     {
         id: 3,
         // image: Agregator,
         image: Todo,
         title: "Agrégateur de contenu",
-        // category: { 1: "NodeJS, 2: "Javascript" }
-        category: "NodeJS"
+        category: ["NodeJS", "HTML", "CSS", "JavaScript"]
 
     },
     {
@@ -33,7 +29,7 @@ const Menu = [
         // image: FlowYourLife,
         image: Todo,
         title: "Portfolio",
-        category: "WordPress"
+        category: ["WordPress", "JavaScript", "HTML", "CSS"]
 
     },
     {
@@ -41,7 +37,7 @@ const Menu = [
         // image: Pokedex,
         image: Todo,
         title: "Pokedex",
-        category: "React"
+        category: ["React"]
 
     },
     {
@@ -49,8 +45,7 @@ const Menu = [
         // image: AdressBook,
         image: Todo,
         title: "Adress Book",
-        category: "PHP"
-
+        category: ["PHP", "HTML", "CSS"]
     }
 ]
 
