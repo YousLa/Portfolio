@@ -6,6 +6,7 @@ const Menu = [
         id: 1,
         image: Todo,
         title: "Plateforme de streaming",
+        // category: { 1: "PHP", 2: "Javascript" }
         category: "PHP"
 
     },
@@ -14,6 +15,7 @@ const Menu = [
         // image: CodeCanvas,
         image: Todo,
         title: "Démystificateur de langages de programmation",
+        // category: { 1: "PHP", 2: "Javascript" }
         category: "PHP"
 
     },
@@ -22,7 +24,8 @@ const Menu = [
         // image: Agregator,
         image: Todo,
         title: "Agrégateur de contenu",
-        category: "NodeJs"
+        // category: { 1: "NodeJS, 2: "Javascript" }
+        category: "NodeJS"
 
     },
     {

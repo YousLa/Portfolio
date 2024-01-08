@@ -4,17 +4,24 @@ import Menu from './Menu'
 
 const Portfolio = () => {
     const [items, setItems] = useState(Menu);
+    const filterItem = (categoryItem) => {
+        const updatedItems = Menu.filter((curElem) => {
+            return curElem.category === categoryItem;
+        })
+
+        setItems(updatedItems);
+    }
     return (
-        <section className="work container section" id="work">
+        <section className="work container section" id="project">
             <h2 className="section_title">Projets</h2>
 
             <div className="work_filters">
-                <span className="work_item">Tout</span>
-                <span className="work_item">JavaScript</span>
-                <span className="work_item">PHP</span>
-                <span className="work_item">WordPress</span>
-                <span className="work_item">React</span>
-                <span className="work_item">NodeJS</span>
+                <span className="work_item" onClick={() => setItems(Menu)}>Tout</span>
+                <span className="work_item" onClick={() => filterItem("JavaScript")}>JavaScript</span>
+                <span className="work_item " onClick={() => filterItem("PHP")}>PHP</span>
+                <span className="work_item" onClick={() => filterItem("WordPress")}>WordPress</span>
+                <span className="work_item" onClick={() => filterItem("React")}>React</span>
+                <span className="work_item" onClick={() => filterItem("NodeJS")}>NodeJS</span>
             </div>
 
             <div className="work_container grid">

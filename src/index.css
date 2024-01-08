@@ -128,7 +128,6 @@ img {
 
 .section_title::before {
   content: '';
-  background: url(./assets/pattern-bg.svg);
   height: 2.25rem;
   width: 2.25rem;
   position: absolute;
