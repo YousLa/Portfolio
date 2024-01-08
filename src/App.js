@@ -5,7 +5,7 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import Portfolio from './components/portfolio/Portfolio';
 import Skills from './components/skills/Skills';
-import Testimonials from './components/testimonials/Testimonials';
+import Recommandations from './components/recommandations/Recommandations';
 import Contact from './components/contact/Contact';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <About />
         <Skills />
         <Portfolio />
-        <Testimonials />
+        <Recommandations />
         <Contact />
       </main>
     </>

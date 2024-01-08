@@ -33,16 +33,16 @@ const Sidebar = () => {
                             </a>
                         </li>
 
-                        {/* PORTFOLIO */}
+                        {/* PROJECTS */}
                         <li className="nav_item">
                             <a href="#project" className="nav_link">
                                 <i className="icon-layers"></i>
                             </a>
                         </li>
 
-                        {/* TESTIMONIALS */}
+                        {/* RECOMMANDATIONS */}
                         <li className="nav_item">
-                            <a href="#testimonials" className="nav_link">
+                            <a href="#recommandations" className="nav_link">
                                 <i className="icon-bubble"></i>
                             </a>
                         </li>
