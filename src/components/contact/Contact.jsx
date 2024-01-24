@@ -29,13 +29,13 @@ const Contact = () => {
                         <input type="email" className="contact_form-input" placeholder='Insert your subject' />
                     </div>
 
-                    <div className="contact_form-div">
-                        <textarea name="" id="" cols="30" rows="10" className='contact_form-input contact_form-area' placeholder='Write your message'>
+                    <div className="contact_form-div contact_form-area">
+                        <textarea name="" id="" cols="30" rows="10" className='contact_form-input' placeholder='Write your message'>
                         </textarea>
                     </div>
 
-                    <button className='btn'>Send Message</button>
 
+                    <button className='btn'>Send Message</button>
                 </form>
             </div>
         </section>)
