@@ -1,0 +1,58 @@
+.style_toggle_container {
+    position: fixed;
+    top: 1.25rem;
+    right: 1.25rem;
+    z-index: 1;
+}
+
+.style_toggle_button {
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    transition: color 0.3s ease;
+    /* Ajout de la transition pour la couleur du texte */
+}
+
+.style_toggle_button-bg {
+    width: 50px;
+    padding: 2.5px;
+    background: whitesmoke;
+    border-radius: 100px;
+    border: 1px solid rgb(228, 228, 228);
+}
+
+.style_toggle_button-span {
+    display: block;
+    background: rgb(219, 219, 219);
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+/* Styles pour le bouton basculé */
+.style_toggle_button.dark .style_toggle_button-bg {
+    background-color: #000;
+}
+
+.style_toggle_button.light .style_toggle_button-bg {
+    background-color: rgb(224, 214, 214);
+}
+
+.style_toggle_button.dark .style_toggle_button-span {
+    background-color: white;
+    margin-left: 18px;
+}
+
+.style_toggle_button.light .style_toggle_button-span {
+    background-color: white;
+    margin-left: 0;
+}
+
+/* Animation des transitions */
+.style_toggle_button-bg,
+.style_toggle_button-span {
+    transition: background-color 0.1s ease, border-color 0.1s ease, margin-left 0.325s ease;
+}

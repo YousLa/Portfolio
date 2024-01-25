@@ -16,10 +16,6 @@ const HeaderSocials = () => {
                 <i class="fa-regular fa-file-pdf"></i>
             </a>
 
-            <a onClick={() => window.location = 'mailto:eljilaliyousra@gmail.com'} className="home_social-link" target="_blank">
-                <i class="fa-solid fa-at"></i>
-            </a>
-
         </div >
     )
 }

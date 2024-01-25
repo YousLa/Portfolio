@@ -2,6 +2,7 @@ import React from 'react'
 import "./about.css"
 import Avatar from "../../assets/svg/avatar.svg"
 import AboutBox from './AboutBox'
+import CV from '../../assets/doc/CV-Yousra-El-Jilali.pdf'
 
 const About = () => {
     return (
@@ -14,7 +15,7 @@ const About = () => {
                 <div className="about_data grid">
                     <div className="about_info">
                         <p className="about_description">Je m'appelle Yousra El Jilali, Web Developer Junior Bruxelles, Belgique. Prête à relever les défis !</p>
-                        <a href="" className="btn">Télécharger mon CV</a>
+                        <a href={CV} className="btn" target="_blank">Télécharger mon CV</a>
                     </div>
 
                     <div className="about_skills grid">

@@ -15,7 +15,7 @@ const Home = () => {
 
                 <HeaderSocials />
 
-                <a href="#contact" className="btn">Engagez-moi</a>
+                <a href="#contact" className="btn">Contactez-moi</a>
 
                 <ScrollDown />
             </div>
