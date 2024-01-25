@@ -15,7 +15,7 @@ function AboutBox() {
                 <img src={Passioned} className="about_icon" alt="Passionnée" />
                 <div>
                     <h3 className="about_title">Passionée</h3>
-                    <span className="about_subtitle">Mon enthousiasme marque chacune de mes actions.</span>
+                    {/* <span className="about_subtitle">Mon enthousiasme marque chacune de mes actions.</span> */}
                 </div>
             </div>
 
@@ -23,7 +23,7 @@ function AboutBox() {
                 <img src={ProblemSolver} className="about_icon" alt="Problem Solver" />
                 <div>
                     <h3 className="about_title">Problem Solver</h3>
-                    <span className="about_subtitle">Face à des défis, j'adopte une approche proactive et trouve des solutions efficaces.</span>
+                    {/* <span className="about_subtitle">Face à des défis, j'adopte une approche proactive et trouve des solutions efficaces.</span> */}
                 </div>
             </div>
 
@@ -32,7 +32,7 @@ function AboutBox() {
 
                 <div>
                     <h3 className="about_title">Déterminée</h3>
-                    <span className="about_subtitle">Je surmonte les obstacles avec persévérance pour atteindre mes objectifs.</span>
+                    {/* <span className="about_subtitle">Je surmonte les obstacles avec persévérance pour atteindre mes objectifs.</span> */}
                 </div>
             </div>
 
@@ -40,7 +40,7 @@ function AboutBox() {
                 <img src={FastLearner} className="about_icon" alt="Fast Learner" />
                 <div>
                     <h3 className="about_title">Fast Learner</h3>
-                    <span className="about_subtitle">J'apprends rapidement, capable de m'adapter et de maîtriser de nouveaux domaines avec facilité.</span>
+                    {/* <span className="about_subtitle">J'apprends rapidement, capable de m'adapter et de maîtriser de nouveaux domaines avec facilité.</span> */}
                 </div>
             </div>
 
