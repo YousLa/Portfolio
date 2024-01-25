@@ -1,9 +1,9 @@
 import React from 'react';
 import "./home.css";
-import Avatar from "../../assets/avatar.svg";
+import Avatar from "../../assets/svg/avatar.svg";
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
-import Shapes from './Shapes';
+// import Shapes from './Shapes';
 
 const Home = () => {
     return (

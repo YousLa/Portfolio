@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./sidebar.css"
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/svg/logo.svg";
 
 const Sidebar = () => {
 
@@ -16,6 +16,7 @@ const Sidebar = () => {
                 <nav className="nav">
                     <div className="nav_menu">
                         <ul className="nav_list">
+
                             {/* HOME */}
                             <li className="nav_item">
                                 <a href="#home" className="nav_link">

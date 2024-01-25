@@ -1,6 +1,6 @@
 import React from 'react'
 import "./recommandations.css"
-import Pic from "../../assets/pic.png"
+import Pic from "../../assets/image/pic.png"
 
 // Import Swiper core and required modules
 import { Pagination } from 'swiper/modules';

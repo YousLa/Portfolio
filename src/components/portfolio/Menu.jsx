@@ -1,5 +1,5 @@
 import React from 'react'
-import Todo from "../../assets/todo.jpg"
+import Todo from "../../assets/image/todo.jpg"
 
 const Menu = [
     {
