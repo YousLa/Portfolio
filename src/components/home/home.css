@@ -21,12 +21,15 @@
 .intro {
     max-width: 540px;
     text-align: center;
+    margin-bottom: 6rem;
 }
 
 /* TODO */
 .home_img {
+    height: 20rem;
+    width: auto;
     margin-bottom: 1.5rem;
-    /* filter: drop-shadow(16px 16px 20px rgb(255, 255, 255)) invert(100%); */
+    /* filter: invert(100%); */
 }
 
 .home_name {

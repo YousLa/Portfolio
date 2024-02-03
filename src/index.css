@@ -6,7 +6,7 @@ font-family: 'Neonderthaw', cursive; */
 /* ^---------- Variable CSS ----------^ */
 :root {
   /* *---------- Colors ----------* */
-  --first-color: hsl(353, 100%, 65%);
+  --first-color: hsl(62, 71%, 55%);
   --title-color: hsl(244, 24%, 26%);
   --text-color: hsl(244, 16%, 43%);
   --body-color: hsl(258, 60%, 98%);
