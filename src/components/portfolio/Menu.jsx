@@ -1,51 +1,55 @@
 import React from 'react'
-import Todo from "../../assets/image/todo.jpg"
+import CoverLetter from "../../assets/image/projects/CoverLetter.png"
+import Kimia from "../../assets/image/projects/Kimia.png"
+import CodeCanvas from "../../assets/image/projects/CodeCanvas.png"
+import Agregator from "../../assets/image/projects/Agregator.png"
+import FlowYourLife from "../../assets/image/projects/FlowYourLife.png"
+import AdressBook from "../../assets/image/projects/AdressBook.png"
 
 const Menu = [
     {
         id: 1,
-        image: Todo,
-        title: "Plateforme de streaming",
-        category: ["PHP", "JavaScript", "HTML", "CSS"]
+        image: Kimia,
+        // title: "Plateforme de streaming",
+        title: "Kimia",
+        category: "PHP",
 
     },
     {
         id: 2,
-        // image: CodeCanvas,
-        image: Todo,
-        title: "Démystificateur de langages de programmation",
-        category: ["PHP", "JavaScript", "HTML", "CSS"]
+        image: CodeCanvas,
+        // title: "Démystificateur de langages de programmation",
+        title: "Code Canvas",
+        category: "JavaScript"
     },
     {
         id: 3,
-        // image: Agregator,
-        image: Todo,
-        title: "Agrégateur de contenu",
-        category: ["NodeJS", "HTML", "CSS", "JavaScript"]
+        image: Agregator,
+        // title: "Agrégateur de contenu",
+        title: "Agregator",
+        category: "NodeJS"
 
     },
     {
         id: 4,
-        // image: FlowYourLife,
-        image: Todo,
-        title: "Portfolio",
-        category: ["WordPress", "JavaScript", "HTML", "CSS"]
+        image: FlowYourLife,
+        // title: "Career Coach",
+        title: "Flow Your Life",
+        category: "WordPress"
 
     },
     {
         id: 5,
-        // image: Pokedex,
-        image: Todo,
+        image: CoverLetter,
         title: "Pokedex",
-        category: ["React"]
+        category: "React"
 
     },
     {
         id: 6,
-        // image: AdressBook,
-        image: Todo,
+        image: AdressBook,
         title: "Adress Book",
-        category: ["PHP", "HTML", "CSS"]
+        category: "PHP"
     }
 ]
 

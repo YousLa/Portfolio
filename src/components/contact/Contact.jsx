@@ -13,7 +13,7 @@ const Contact = () => {
                     <p className="contact_details">Don't like forms ? Send an email. 👌</p>
                 </div>
 
-                <form action="" className="contact_form">
+                {/* <form action="" className="contact_form">
 
                     <div className="contact_form-group">
                         <div className="contact_form-div">
@@ -36,7 +36,7 @@ const Contact = () => {
 
 
                     <button className='btn'>Send Message</button>
-                </form>
+                </form> */}
             </div>
         </section>)
 }
