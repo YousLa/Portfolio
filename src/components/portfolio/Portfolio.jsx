@@ -17,6 +17,7 @@ const Portfolio = () => {
 
             <div className="work_filters">
                 <span className="work_item" onClick={() => setItems(Menu)}>Tout</span>
+                <span className="work_item" onClick={() => filterItem("HTML")}>HTML</span>
                 <span className="work_item" onClick={() => filterItem("JavaScript")}>JavaScript</span>
                 <span className="work_item " onClick={() => filterItem("PHP")}>PHP</span>
                 <span className="work_item" onClick={() => filterItem("WordPress")}>WordPress</span>
@@ -26,7 +27,7 @@ const Portfolio = () => {
 
             <div className="work_container grid">
                 {items.map((elem) => {
-                    const { id, image, title, category } = elem;
+                    const { id, image, title, category, link } = elem;
                     return (
                         <div className="work_card" key={id}>
                             <div className="work_thumbnail">
@@ -36,7 +37,7 @@ const Portfolio = () => {
 
                             <span className="work_category">{category}</span>
                             <h3 className="work_title">{title}</h3>
-                            <a href="" className="work_button">
+                            <a href={link} target="_blank" className="work_button">
                                 <i className="icon-link work_button-icon"></i>
                             </a>
                         </div>

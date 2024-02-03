@@ -5,6 +5,7 @@ import CodeCanvas from "../../assets/image/projects/CodeCanvas.png"
 import Agregator from "../../assets/image/projects/Agregator.png"
 import FlowYourLife from "../../assets/image/projects/FlowYourLife.png"
 import AdressBook from "../../assets/image/projects/AdressBook.png"
+import Pokedex from "../../assets/image/projects/Pokedex.png"
 
 const Menu = [
     {
@@ -13,6 +14,7 @@ const Menu = [
         // title: "Plateforme de streaming",
         title: "Kimia",
         category: "PHP",
+        link: "https://github.com/YousLa/Kimia"
 
     },
     {
@@ -20,14 +22,16 @@ const Menu = [
         image: CodeCanvas,
         // title: "Démystificateur de langages de programmation",
         title: "Code Canvas",
-        category: "JavaScript"
+        category: "JavaScript",
+        link: "https://github.com/YousLa/Code-Canvas"
     },
     {
         id: 3,
         image: Agregator,
         // title: "Agrégateur de contenu",
         title: "Agregator",
-        category: "NodeJS"
+        category: "NodeJS",
+        link: "https://github.com/YousLa/Projet-Agregator"
 
     },
     {
@@ -35,21 +39,31 @@ const Menu = [
         image: FlowYourLife,
         // title: "Career Coach",
         title: "Flow Your Life",
-        category: "WordPress"
+        category: "WordPress",
+        link: "https://flowyourlife.be"
 
     },
     {
         id: 5,
         image: CoverLetter,
-        title: "Pokedex",
-        category: "React"
+        title: "Newsletter",
+        category: "HTML",
+        link: "https://github.com/YousLa/Cover-Letter"
 
     },
     {
         id: 6,
         image: AdressBook,
         title: "Adress Book",
-        category: "PHP"
+        category: "PHP",
+        link: "https://github.com/YousLa/Address-Book"
+    },
+    {
+        id: 7,
+        image: Pokedex,
+        title: "Pokedex",
+        category: "React",
+        link: ""
     }
 ]
 
