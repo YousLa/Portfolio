@@ -63,3 +63,8 @@
 .recommandation_item {
     cursor: grab;
 }
+
+.swiper,
+.swiper-wrapper {
+    z-index: 0 !important;
+}

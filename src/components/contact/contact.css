@@ -12,6 +12,13 @@
     margin-bottom: .5rem;
 }
 
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .contact_form-group {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -52,15 +59,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 1.75rem;
+    column-gap: 2.75rem;
     margin: 1.5rem 0;
 }
 
 .footer_social-link {
     color: var(--title-color);
-    font-size: 2rem;
+    font-size: 2.5rem;
     transition: .3s;
-    /* width: 20px; */
+    cursor: pointer;
 }
 
 .footer_social-link:hover {
