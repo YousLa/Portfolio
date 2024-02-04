@@ -48,6 +48,27 @@
     resize: none;
 }
 
+.footer_socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.75rem;
+    margin: 1.5rem 0;
+}
+
+.footer_social-link {
+    color: var(--title-color);
+    font-size: 2rem;
+    transition: .3s;
+    /* width: 20px; */
+}
+
+.footer_social-link:hover {
+    color: var(--third-color);
+}
+
+
+
 @media screen and (max-width: 1024px) {
     .contact_container {
         grid-template-columns: 300px 360px;
