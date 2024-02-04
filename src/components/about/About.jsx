@@ -23,50 +23,50 @@ const About = () => {
                         </div>
                         <div className='icons_skills'>
 
-                            <i class="devicon-html5-plain colored"></i>
+                            <i className="devicon-html5-plain colored"></i>
 
-                            <i class="devicon-css3-plain colored"></i>
+                            <i className="devicon-css3-plain colored"></i>
 
-                            <i class="devicon-sass-original colored"></i>
+                            <i className="devicon-sass-original colored"></i>
 
-                            <i class="devicon-bootstrap-plain colored"></i>
+                            <i className="devicon-bootstrap-plain colored"></i>
 
 
-                            <i class="devicon-tailwindcss-plain colored"></i>
+                            <i className="devicon-tailwindcss-plain colored"></i>
 
-                            <i class="devicon-javascript-plain colored"></i>
+                            <i className="devicon-javascript-plain colored"></i>
 
-                            <i class="devicon-mysql-plain colored"></i>
+                            <i className="devicon-mysql-plain colored"></i>
 
-                            <i class="devicon-php-plain colored"></i>
+                            <i className="devicon-php-plain colored"></i>
 
-                            <i class="devicon-wordpress-plain colored"></i>
+                            <i className="devicon-wordpress-plain colored"></i>
 
-                            <i class="devicon-nodejs-plain colored"></i>
+                            <i className="devicon-nodejs-plain colored"></i>
 
-                            <i class="devicon-express-original colored"></i>
+                            <i className="devicon-express-original colored"></i>
 
-                            <i class="devicon-mongodb-plain colored"></i>
+                            <i className="devicon-mongodb-plain colored"></i>
 
-                            <i class="devicon-react-original colored"></i>
+                            <i className="devicon-react-original colored"></i>
 
-                            <i class="devicon-java-plain colored"></i>
+                            <i className="devicon-java-plain colored"></i>
 
-                            <i class="devicon-csharp-plain colored"></i>
+                            <i className="devicon-csharp-plain colored"></i>
 
-                            <i class="devicon-figma-plain colored"></i>
+                            <i className="devicon-figma-plain colored"></i>
 
-                            <i class="devicon-canva-original colored"></i>
+                            <i className="devicon-canva-original colored"></i>
 
-                            <i class="devicon-illustrator-line colored"></i>
+                            <i className="devicon-illustrator-line colored"></i>
 
-                            <i class="devicon-photoshop-line colored"></i>
+                            <i className="devicon-photoshop-line colored"></i>
 
-                            <i class="devicon-xd-line colored"></i>
+                            <i className="devicon-xd-line colored"></i>
 
-                            <i class="devicon-git-plain colored"></i>
+                            <i className="devicon-git-plain colored"></i>
 
-                            <i class="devicon-github-original colored"></i>
+                            <i className="devicon-github-original colored"></i>
 
 
                         </div>

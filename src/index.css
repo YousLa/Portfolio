@@ -7,6 +7,8 @@ font-family: 'Neonderthaw', cursive; */
 :root {
   /* *---------- Colors ----------* */
   --first-color: hsl(62, 71%, 55%);
+  --second-color: hsla(260, 100%, 66%, 0.777);
+  --third-color: hsl(355, 67%, 48%);
   --title-color: hsl(244, 24%, 26%);
   --text-color: hsl(244, 16%, 43%);
   --body-color: hsl(258, 60%, 98%);

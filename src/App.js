@@ -8,6 +8,11 @@ import Portfolio from './components/portfolio/Portfolio';
 import Recommandations from './components/recommandations/Recommandations';
 import Contact from './components/contact/Contact'
 
+// import function to register Swiper custom elements
+import { register } from 'swiper/element/bundle';
+// register Swiper custom elements
+register();
+
 function App() {
   return (
     <>
