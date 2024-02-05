@@ -13,10 +13,10 @@ const Portfolio = () => {
     }
     return (
         <section className="work container section" id="project">
-            <h2 className="section_title">Projets</h2>
+            <h2 className="section_title">Projects</h2>
 
             <div className="work_filters">
-                <span className="work_item" onClick={() => setItems(Menu)}>Tout</span>
+                <span className="work_item" onClick={() => setItems(Menu)}>All</span>
                 <span className="work_item" onClick={() => filterItem("HTML")}>HTML</span>
                 <span className="work_item" onClick={() => filterItem("JavaScript")}>JavaScript</span>
                 <span className="work_item " onClick={() => filterItem("PHP")}>PHP</span>

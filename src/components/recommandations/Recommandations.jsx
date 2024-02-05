@@ -10,7 +10,7 @@ import { Pagination } from 'swiper/modules';
 const Recommandations = () => {
     return (
         <section className="recommandations container section" id='recommandations'>
-            <h2 className='section_title'>Recommandations</h2>
+            <h2 className='section_title'>Recommendations</h2>
 
             <Swiper
                 pagination={{

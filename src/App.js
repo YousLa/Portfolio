@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Sidebar />
-      <StyleToggle />
+      {/* <StyleToggle /> */}
       <main className='main'>
         <Home />
         <About />
