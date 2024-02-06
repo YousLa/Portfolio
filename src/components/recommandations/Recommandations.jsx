@@ -19,12 +19,12 @@ const Recommandations = () => {
                 modules={[Pagination]}
 
             >
-                {Data.map(({ id, image, title, poste, comment, entreprise, lien }) => (
+                {Data.map(({ id, image, name, poste, comment, entreprise, lien }) => (
                     <SwiperSlide key={id} className='recommandation_item'>
                         <div className="thumb">
-                            <img src={image} alt="" />
+                            <img className='recommantion-avatar' src={image} alt={name} />
                         </div>
-                        <h3 className="recommandations_title">{title}</h3>
+                        <h3 className="recommandations_title">{name}</h3>
                         <span className='subtitle'>{poste} chez <a href={lien} target='blank_'>{entreprise}</a></span>
                         <div className='comment'>{comment}</div>
                     </SwiperSlide>

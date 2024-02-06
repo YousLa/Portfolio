@@ -9,9 +9,13 @@
 }
 
 .thumb {
-    height: 5.6rem;
+    height: 6.6rem;
     width: 5.6rem;
     margin: 0 auto;
+}
+
+.recommantion-avatar {
+    border-radius: 50%;
 }
 
 .recommandions_title {

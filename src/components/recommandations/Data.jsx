@@ -1,11 +1,14 @@
 import Pic from "../../assets/image/pic.png"
+import Aude from "../../assets/image/recommandations/AudeBeurive.jpg"
+import Quentin from "../../assets/image/recommandations/QuentinGeerts.jpg"
+import Ibtissam from "../../assets/image/recommandations/IbtissamDerfoufi.jpg"
 
 
 const Data = [
     {
         id: 1,
-        image: Pic,
-        title: "Aude Beurive",
+        image: Aude,
+        name: "Aude Beurive",
         poste: "Formatrice Développement Web",
         entreprise: "BStorm",
         lien: "https://www.bstorm.be",
@@ -14,7 +17,7 @@ const Data = [
     {
         id: 2,
         image: Pic,
-        title: "Julie Moors",
+        name: "Julie Moors",
         poste: "Formatrice et coordinatrice de formation",
         entreprise: "Interface3",
         lien: "https://interface3.be/fr",
@@ -22,8 +25,8 @@ const Data = [
     },
     {
         id: 3,
-        image: Pic,
-        title: "Quentin Geerts",
+        image: Quentin,
+        name: "Quentin Geerts",
         poste: "Formateur Développement Web",
         entreprise: "BStorm",
         lien: "https://www.bstorm.be",
@@ -31,8 +34,8 @@ const Data = [
     },
     {
         id: 4,
-        image: Pic,
-        title: "Ibtissam Derfoufi",
+        image: Ibtissam,
+        name: "Ibtissam Derfoufi",
         poste: "Technicienne IT reseau et sécurité",
         entreprise: "Interface3",
         lien: "https://interface3.be/fr",
