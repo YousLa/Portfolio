@@ -51,15 +51,18 @@ const Portfolio = () => {
 
                             <span className="work_category">{category}</span>
                             <h3 className="work_title">{title}</h3>
-                            <button className="work_button" onClick={() => handleOpenModal(elem)}>
+                            {/* <button className="work_button" onClick={() => handleOpenModal(elem)}>
                                 <i className="fa-solid fa-plus"></i>
-                            </button>
+                            </button> */}
+                            <a href={link} className="work_button" target='blank_'>
+                                <i className="icon-link work_button-icon"></i>
+                            </a>
                         </div>
                     )
                 })}
             </div>
             {/* TODO : Scroll back block | Card */}
-            <ReactModal
+            {/* <ReactModal
                 isOpen={showModal}
                 onRequestClose={handleCloseModal}
                 contentLabel="Modal Content"
@@ -79,7 +82,7 @@ const Portfolio = () => {
                 <button onClick={handleCloseModal}>
                     <i className="fa-solid fa-xmark"></i>
                 </button>
-            </ReactModal>
+            </ReactModal> */}
         </section>
     )
 }

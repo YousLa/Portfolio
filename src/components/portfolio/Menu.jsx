@@ -11,6 +11,7 @@ import AgregatorVid from "../../assets/video/Agregator.mp4"
 import NewsletterVid from "../../assets/video/Newsletter.mp4"
 import CodeCanvaVid from "../../assets/video/CodeCanva.mp4"
 import AdressBookVid from "../../assets/video/AdressBook.mp4"
+import Portfolio from '../../assets/image/projects/Portfolio.png'
 
 const Menu = [
     {
@@ -76,6 +77,14 @@ const Menu = [
         title: "Pokedex",
         category: "React",
         link: ""
+    },
+    {
+        id: 8,
+        image: Portfolio,
+        video: null,
+        title: "Portfolio",
+        category: "React",
+        link: "https://github.com/YousLa/Portfolio"
     }
 ]
 
