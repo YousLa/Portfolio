@@ -17,7 +17,6 @@ const Recommandations = () => {
                     dynamicBullets: true,
                 }}
                 modules={[Pagination]}
-
             >
                 {Data.map(({ id, image, name, poste, comment, entreprise, lien }) => (
                     <SwiperSlide key={id} className='recommandation_item'>

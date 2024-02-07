@@ -2,6 +2,7 @@ import Pic from "../../assets/image/pic.png"
 import Aude from "../../assets/image/recommandations/AudeBeurive.jpg"
 import Quentin from "../../assets/image/recommandations/QuentinGeerts.jpg"
 import Ibtissam from "../../assets/image/recommandations/IbtissamDerfoufi.jpg"
+import Laurence from "../../assets/image/recommandations/LaurenceDelforge.jpg"
 
 
 const Data = [
@@ -40,6 +41,15 @@ const Data = [
         entreprise: "Interface3",
         lien: "https://interface3.be/fr",
         comment: "C'est avec plaisir que je recommande Yousra, une étudiante dynamique et passionnée avec qui j'ai eu le plaisir de travailler. Yousra se distingue par son attitude souriante et agréable, ainsi que par son engagement passionné envers les défis techniques. Pendant notre collaboration, j'ai été impressionné par sa capacité à comprendre rapidement les concepts et à les appliquer efficacement. Yousra excelle particulièrement dans les domaines du design, de la programmation et de l'hébergement. Sa polyvalence et sa compétence technique lui permettent de relever avec succès divers défis dans ces domaines. Sa détermination à surmonter les obstacles techniques est un trait remarquable qui la distingue. Je recommande vivement Yousra pour sa passion, son dynamisme et ses compétences techniques. Son approche proactive et sa volonté d'atteindre l'excellence font d'elle une candidate précieuse pour tout projet ou équipe."
+    },
+    {
+        id: 5,
+        image: Laurence,
+        name: "Laurence Delforge",
+        poste: "Etudiante Web Application Developper",
+        entreprise: "Interface3",
+        lien: "https://interface3.be/fr",
+        comment: "Collaborer avec Yousra lors de l'hackathon pour le projet Code Canvas a été une expérience incroyablement enrichissante ! Sa passion, son énergie débordante et son esprit d'équipe contagieux ont rendu chaque moment stimulant et productif."
     }
 ]
 
