@@ -1,8 +1,9 @@
-import Pic from "../../assets/image/pic.png"
+import Pic from "../../assets/image/recommandations/Pic.jpg"
 import Aude from "../../assets/image/recommandations/AudeBeurive.jpg"
 import Quentin from "../../assets/image/recommandations/QuentinGeerts.jpg"
 import Ibtissam from "../../assets/image/recommandations/IbtissamDerfoufi.jpg"
 import Laurence from "../../assets/image/recommandations/LaurenceDelforge.jpg"
+import Rudi from "../../assets/image/recommandations/RudiGiot.jpg"
 
 
 const Data = [
@@ -50,7 +51,27 @@ const Data = [
         entreprise: "Interface3",
         lien: "https://interface3.be/fr",
         comment: "Collaborer avec Yousra lors de l'hackathon pour le projet Code Canvas a été une expérience incroyablement enrichissante ! Sa passion, son énergie débordante et son esprit d'équipe contagieux ont rendu chaque moment stimulant et productif."
-    }
+    },
+    {
+        id: 6,
+        image: Pic,
+        name: "Hanane Chyabri",
+        poste: "Etudiante Web Application Developper",
+        entreprise: "Interface3",
+        lien: "https://interface3.be/fr",
+        comment: "J'ai eu le plaisir de travailler avec Yousra lors d'un hackathon de 3 jours, et j'ai été profondément impressionnée par ses compétences exceptionnelles en programmation et son aptitude remarquable à assimiler rapidement de nouveaux langages et concepts algorithmiques. Son dévouement, sa créativité et sa capacité à collaborer efficacement et à contribuer positivement à l'atteinte des objectifs communs en font une collaboratrice exceptionnelle. Je suis convaincu qu'elle apportera une contribution précieuse à toute équipe ou projet."
+    },
+    {
+        id: 7,
+        image: Rudi,
+        name: "Rudi Giot",
+        poste: "Formateur Node.js",
+        entreprise: "Interface3",
+        lien: "https://interface3.be/fr",
+        comment: "J'ai eu Yousra dans mes cours de Node.js. Elle est très courageuse, volontaire et pugnace. De surcroît, elle est très joviale et apportait une belle mentalité dans la classe. J'ai eu beaucoup de plaisir à travailler avec elle."
+    },
+
+
 ]
 
 export default Data;
