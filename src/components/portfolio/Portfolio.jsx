@@ -54,7 +54,7 @@ const Portfolio = () => {
                             {/* <button className="work_button" onClick={() => handleOpenModal(elem)}>
                                 <i className="fa-solid fa-plus"></i>
                             </button> */}
-                            <a href={link} className="work_button" target='blank_'>
+                            <a href={link} className="work_button" target='blank_' rel='noopener noreferrer'>
                                 <i className="icon-link work_button-icon"></i>
                             </a>
                         </div>
