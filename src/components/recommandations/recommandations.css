@@ -73,17 +73,9 @@
     background-color: var(--third-color) !important;
 }
 
-/* .swiper-pagination-bullet-active-next,
-.swiper-pagination-bullet-active-prev {} */
-
-/* 
-.swiper-button-prev {
-    left: -10px !important;
+.swiper-slide>div {
+    margin: 0 50px;
 }
-
-.swiper-button-next {
-    right: -10px !important;
-} */
 
 .recommandation_item {
     cursor: grab;

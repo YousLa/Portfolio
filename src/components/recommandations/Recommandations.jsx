@@ -22,8 +22,8 @@ const Recommandations = () => {
                 loop={true}
 
             >
-                {/* <div className="swiper-button-prev"></div>
-                <div className="swiper-button-next"></div> */}
+                <div className="swiper-button-prev"></div>
+                <div className="swiper-button-next"></div>
 
                 {Data.map(({ id, image, name, poste, comment, entreprise, lien }) => (
                     <SwiperSlide key={id} className='recommandation_item'>

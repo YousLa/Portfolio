@@ -70,8 +70,33 @@ const Data = [
         lien: "https://interface3.be/fr",
         comment: "J'ai eu Yousra dans mes cours de Node.js. Elle est très courageuse, volontaire et pugnace. De surcroît, elle est très joviale et apportait une belle mentalité dans la classe. J'ai eu beaucoup de plaisir à travailler avec elle."
     },
-
-
+    {
+        id: 8,
+        image: Pic,
+        name: "Yosr Taïeb",
+        poste: "Etudiante Front-end Developer",
+        entreprise: "Interface3",
+        lien: "https://interface3.be/fr",
+        comment: "Ravie d'avoir suivi une formation front-end avec Yousra. Sa curiosité infinie et sa positivité ont enrichi notre expérience d'apprentissage. Passionnée par le développement web, elle allie compétence technique et esprit d'équipe. Yousra a démontré son professionnalisme dans notre collaboration sur un projet en dehors des cours. Je la recommande chaleureusement comme développeuse talentueuse, créative et collaborative. Un plaisir de travailler avec elle, assurément une valeur ajoutée pour tout projet."
+    },
+    {
+        id: 9,
+        image: Pic,
+        name: "Martine Delier",
+        poste: "Responsable informatique",
+        entreprise: "Interface3",
+        lien: "https://interface3.be/fr",
+        comment: "Yousra apporte une véritable bouffée d'air frais au sein d'un groupe. Sa personnalité rayonnante et son humour créent une atmosphère dynamique et positive, propice à l'innovation et à la collaboration. Avide de nouveaux défis, elle fait preuve d'une détermination sans faille pour atteindre ses objectifs. Curieuse et volontaire, elle n'hésite pas à se lancer dans de nouveaux projets avec enthousiasme. Entrepreneuse, elle surprendra par ses propositions innovantes."
+    },
+    {
+        id: 10,
+        image: Pic,
+        name: "Elena Rottin",
+        poste: "Etudiante Web Application Developper",
+        entreprise: "Interface3",
+        lien: "https://interface3.be/fr",
+        comment: "I had the opportunity to work side by side with Yousra during a 3-day Hackathon at Interface3 in October 2023. I was deeply struck by her enthusiasm, proactivity, and solid knowledge of CSS and JS.I trust that she will be a valuable intern/ team member!"
+    },
 ]
 
 export default Data;
