@@ -4,11 +4,14 @@ import Quentin from "../../assets/image/recommandations/QuentinGeerts.jpg"
 import Ibtissam from "../../assets/image/recommandations/IbtissamDerfoufi.jpg"
 import Laurence from "../../assets/image/recommandations/LaurenceDelforge.jpg"
 import Rudi from "../../assets/image/recommandations/RudiGiot.jpg"
+import Elena from "../../assets/image/recommandations/ElenaRottin.jpg"
+import Yosr from "../../assets/image/recommandations/YosrTaieb.jpg"
 
 
 const Data = [
     {
         id: 1,
+        linkedin: "https://www.linkedin.com/in/aude-beurive/",
         image: Aude,
         name: "Aude Beurive",
         poste: "Formatrice Développement Web",
@@ -18,6 +21,7 @@ const Data = [
     },
     {
         id: 2,
+        linkedin: "https://www.linkedin.com/in/julie-moors/",
         image: Pic,
         name: "Julie Moors",
         poste: "Formatrice et coordinatrice de formation",
@@ -27,6 +31,7 @@ const Data = [
     },
     {
         id: 3,
+        linkedin: "https://www.linkedin.com/in/geerts-quentin/",
         image: Quentin,
         name: "Quentin Geerts",
         poste: "Formateur Développement Web",
@@ -36,6 +41,7 @@ const Data = [
     },
     {
         id: 4,
+        linkedin: "https://www.linkedin.com/in/ibtissam-derfoufi-a736a624/",
         image: Ibtissam,
         name: "Ibtissam Derfoufi",
         poste: "Technicienne IT reseau et sécurité",
@@ -45,6 +51,7 @@ const Data = [
     },
     {
         id: 5,
+        linkedin: "https://www.linkedin.com/in/laurence-delforge/",
         image: Laurence,
         name: "Laurence Delforge",
         poste: "Etudiante Web Application Developper",
@@ -54,6 +61,7 @@ const Data = [
     },
     {
         id: 6,
+        linkedin: "https://www.linkedin.com/in/hanane-chyabri/",
         image: Pic,
         name: "Hanane Chyabri",
         poste: "Etudiante Web Application Developper",
@@ -63,6 +71,7 @@ const Data = [
     },
     {
         id: 7,
+        linkedin: "https://www.linkedin.com/in/rudi-giot-5488212b/",
         image: Rudi,
         name: "Rudi Giot",
         poste: "Formateur Node.js",
@@ -72,7 +81,8 @@ const Data = [
     },
     {
         id: 8,
-        image: Pic,
+        linkedin: "https://www.linkedin.com/in/yosr-taieb-ytb/",
+        image: Yosr,
         name: "Yosr Taïeb",
         poste: "Etudiante Front-end Developer",
         entreprise: "Interface3",
@@ -81,6 +91,7 @@ const Data = [
     },
     {
         id: 9,
+        linkedin: "https://www.linkedin.com/in/delier-martine/",
         image: Pic,
         name: "Martine Delier",
         poste: "Responsable informatique",
@@ -90,7 +101,8 @@ const Data = [
     },
     {
         id: 10,
-        image: Pic,
+        linkedin: "https://www.linkedin.com/in/elena-rottin/",
+        image: Elena,
         name: "Elena Rottin",
         poste: "Etudiante Web Application Developper",
         entreprise: "Interface3",
