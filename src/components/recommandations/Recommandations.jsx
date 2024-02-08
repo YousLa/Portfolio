@@ -8,22 +8,32 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 
 const Recommandations = () => {
+    const isMobile = window.innerWidth <= 768;
+
     return (
         <section className="recommandations container section" id='recommandations'>
             <h2 className='section_title'>Recommendations</h2>
 
             <Swiper
                 modules={[Pagination, Navigation]}
-                navigation={{ prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' }}
-                // pagination={{
-                //     dynamicBullets: true,
-                //     clickable: true
-                // }}
+
+                navigation={!isMobile ? { prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' } : false}
+
+                pagination={isMobile ? {
+                    dynamicBullets: true,
+                    clickable: true
+                } : false}
                 loop={true}
 
             >
-                <div className="swiper-button-prev"></div>
-                <div className="swiper-button-next"></div>
+                {!isMobile ? (
+                    <div>
+                        <div div className="swiper-button-prev"></div>
+                        <div className="swiper-button-next"></div>
+                    </div>)
+                    :
+                    null
+                }
 
                 {Data.map(({ id, image, name, poste, comment, entreprise, lien, linkedin }) => (
                     <SwiperSlide key={id} className='recommandation_item'>
@@ -41,7 +51,7 @@ const Recommandations = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
-        </section>
+        </section >
     )
 }
 
