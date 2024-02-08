@@ -18,6 +18,12 @@
     border-radius: 50%;
 }
 
+.icons-recommandations {
+    font-size: 4rem;
+    color: var(--title-color);
+
+}
+
 .recommandions_title {
     margin-top: 0.75rem;
 }
@@ -33,32 +39,20 @@
     margin-top: 1.5rem;
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
-    position: relative;
-    display: flex;
+    display: grid;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+    position: relative;
     margin-bottom: 3rem;
-    /* height: 15rem;
+    height: 15rem;
     overflow-y: auto;
     overflow-x: hidden;
-    scroll-behavior: smooth; */
+    scroll-behavior: smooth;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
 }
 
-/* .comment::-webkit-scrollbar {
+.comment::-webkit-scrollbar {
     width: 10px;
-} */
-
-.comment::before {
-    content: '';
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 15px solid var(--container-color);
-    position: absolute;
-    left: 49.5%;
-    top: -0.625rem;
-    transform: translateX(-7.5px);
 }
 
 
@@ -77,11 +71,15 @@
     margin: 0 50px;
 }
 
-.recommandation_item {
-    cursor: grab;
-    height: 10rem;
+.swiper-button-prev,
+.swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 65%) !important;
+    color: var(--second-color) !important;
 }
 
+.swiper [class^=devicon-] {
+    line-height: 0;
+}
 
 .swiper,
 .swiper-wrapper {

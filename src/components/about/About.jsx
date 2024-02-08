@@ -22,7 +22,7 @@ const About = () => {
                             <p className="about_description">My journey in the world of technology has been a thrilling ride so far, filled with challenges, triumphs, and countless lines of code. Along the way, I've dabbled in various technologies such as :</p>
                         </div>
                         <div className='icons_skills'>
-
+                            {/* TODO Alt bot */}
                             <i className="devicon-html5-plain colored"></i>
 
                             <i className="devicon-css3-plain colored"></i>
@@ -72,7 +72,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className='container_download-resume'>
-                        <a href={CV} className="btn" target="_blank">Download my resume</a>
+                        <a href={CV} className="btn" target="_blank" rel='noopener noreferrer'>Download my resume</a>
                     </div>
                 </div>
             </div>
