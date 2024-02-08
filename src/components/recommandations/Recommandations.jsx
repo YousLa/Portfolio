@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 
 const Recommandations = () => {
-    const isMobile = window.innerWidth <= 768;
+    const isMobile = window.innerWidth <= 900;
 
     return (
         <section className="recommandations container section" id='recommandations'>
