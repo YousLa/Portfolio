@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 
 const Recommandations = () => {
+    // TODO Voir s'il est possible de le faire par détection du style d'appareil sur lequel l'utilisateur consulte le site
     const isMobile = window.innerWidth <= 900;
 
     return (
@@ -24,7 +25,6 @@ const Recommandations = () => {
                     clickable: true
                 } : false}
                 loop={true}
-
             >
                 {!isMobile ? (
                     <div>
