@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "./recommandations.css";
 import Data from './Data';
 import 'swiper/css';
@@ -8,8 +8,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 
 const Recommandations = () => {
-    // TODO Voir s'il est possible de le faire par détection du style d'appareil sur lequel l'utilisateur consulte le site
+    const [shuffledData, setShuffledData] = useState([]);
     const isMobile = window.innerWidth <= 900;
+
+    useEffect(() => {
+        const shuffled = [...Data].sort(() => Math.random() - 0.5);
+        setShuffledData(shuffled);
+    }, []);
 
     return (
         <section className="recommandations container section" id='recommandations'>
@@ -17,9 +22,7 @@ const Recommandations = () => {
 
             <Swiper
                 modules={[Pagination, Navigation]}
-
                 navigation={!isMobile ? { prevEl: '.swiper-button-prev', nextEl: '.swiper-button-next' } : false}
-
                 pagination={isMobile ? {
                     dynamicBullets: true,
                     clickable: true
@@ -35,7 +38,7 @@ const Recommandations = () => {
                     null
                 }
 
-                {Data.map(({ id, image, name, poste, comment, entreprise, lien, linkedin }) => (
+                {shuffledData.map(({ id, image, name, poste, comment, entreprise, lien, linkedin }) => (
                     <SwiperSlide key={id} className='recommandation_item'>
                         <div>
                             <div className="thumb">

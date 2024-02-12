@@ -6,6 +6,8 @@ import Laurence from "../../assets/image/recommandations/LaurenceDelforge.jpg"
 import Rudi from "../../assets/image/recommandations/RudiGiot.jpg"
 import Elena from "../../assets/image/recommandations/ElenaRottin.jpg"
 import Yosr from "../../assets/image/recommandations/YosrTaieb.jpg"
+import Thomas from "../../assets/image/recommandations/ThomasStassin.jpg"
+import Andrea from "../../assets/image/recommandations/AndreaLeponce.jpg"
 
 
 const Data = [
@@ -108,6 +110,26 @@ const Data = [
         entreprise: "Interface3",
         lien: "https://interface3.be/fr",
         comment: "I had the opportunity to work side by side with Yousra during a 3-day Hackathon at Interface3 in October 2023. I was deeply struck by her enthusiasm, proactivity, and solid knowledge of CSS and JS.I trust that she will be a valuable intern/ team member!"
+    },
+    {
+        id: 11,
+        linkedin: "https://www.linkedin.com/in/thomas-stassin-15213a28/",
+        image: Thomas,
+        name: "Thomas Stassin",
+        poste: "Co-Founder / Game Designer / Developer",
+        entreprise: "Team Panoptes",
+        lien: "https://teampanoptes.be",
+        comment: "Yousra possède une grande volonté d'apprendre et de progresser ; elle va toujours au-delà de ce qui est demandé. Son attitude volontaire et proactive constitue d'indéniables atouts pour son rôle de développeuse. Sa passion pour l'apprentissage continu se reflète dans son engagement à améliorer ses compétences techniques et son désir constant de repousser ses limites. Ces traits feront d'elle une collaboratrice précieuse et inspirante au sein de toute équipe de développement."
+    },
+    {
+        id: 12,
+        linkedin: "https://www.linkedin.com/in/thomas-stassin-15213a28/",
+        image: Andrea,
+        name: "Andrea Leponce",
+        poste: "Co-Founder ",
+        entreprise: "Sloway",
+        lien: "https://interface3.be/fr",
+        comment: "Yousra apporte de la vivacité dans une équipe. Courageuse, habile et orientée vers les résultats, Yousra résonne avec beaucoup de subtilité et a cette rare capacité à sonder et rechercher l'information par elle-même. Tenace et vive d'esprit, elle dispose de toutes les qualités requises pour évoluer dans le monde de l'informatique et spécifiquement en tant que développeuse web. Un jeune talent qui ne demande qu'à apprendre, évoluer et atteindre des sommets en équipe."
     },
 ]
 
