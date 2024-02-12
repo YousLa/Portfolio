@@ -49,7 +49,9 @@ const Recommandations = () => {
                             </a>
                             <h3 className="recommandations_title">{name}</h3>
                             <span className='subtitle'>{poste} chez <a href={lien} target='blank_' rel='noopener noreferrer'>{entreprise}</a></span>
-                            <div className='comment'>{comment}</div>
+                            <div className='comment'>{comment}
+                                <div className='gradient-overlay'></div>
+                            </div>
                         </div>
                     </SwiperSlide>
                 ))}
